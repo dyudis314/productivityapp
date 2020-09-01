@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+color: #221d1f; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 300; line-height: 30px;
+}
+
+
+html, 
+body {
+  background-color: rgba(51, 51, 51, 0.685);
+  background-image: cover;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.red { color: #ff5049 !important; }
+.red-focus:focus { border: 1px solid #ff5049 !important; }
+
+/* TOP */
+
+
+.top {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 900%;
+  text-align: center; 
+  padding: 60px;
+  background-color: #333;
+  border: .1em solid goldenrod;
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  border-radius: 50px;
+}
+
+.box1, 
+.box2,
+.box3, 
+.box4, 
+.box5 {
+border-radius: 25px;
+margin: 7.5px;
+height: 10%;
+overflow: auto;
+}
+
+.box1 {
+  background-color: goldenrod;
+}
+
+
+.box2 {
+  background-color: goldenrod;
+
+}
+
+.box3 {
+  background-color: goldenrod;
+
+}
+
+.box4 {
+  background-color: goldenrod;
+  
+}
+
+.box5 {
+  background-color: goldenrod;
+
+}
+
+.box1:hover,
+.box1:active, 
+.box2:hover,
+.box2:active,
+.box3:hover,
+.box3:active,
+.box4:hover, 
+.box4:active,
+.box5:hover, 
+.box5:active { 
+  transition-duration: .8s;
+  transform: scale(1.04);
+}
+
+
+
+/* MIDDLE */
+
+.add {
+  text-align: center;
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  height: 12vh;
+  vertical-align: middle;
+  background-color: #333;
+  border: .1em solid goldenrod;
+}
+
+
+
+.add__type {
+  background-color: rgba(255, 255, 255, 0.582);
+  border: 1px solid #e7e7e7;
+  height: 37px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.add__task {
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-weight: bold; 
+  width: 90px;
+  border: 1px solid #e7e7e7;
+  font-size: 18px;
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.582);
+  margin-right: 10px;
+  font-weight: 300;
+  transition: border 0.3s;
+}
+
+.add__description {
+  width: 300px;
+  border: 1px solid #e7e7e7;
+  background-color: rgba(255, 255, 255, 0.63);
+  font-family: inherit;
+  font-size: 18px;
+  padding: 10px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  height: 100%;
+}
+
+
+.add-circle-outline {
+  color: rgba(255, 255, 255, 0.938);
+  font-size: 35px;
+  cursor: pointer;
+  position: absolute;
+  top: 57%;
+  left: 70%;
+}
+
+.add-circle-outline {
+  transform: translateX(calc(0.15em * 3 - 0.08em * 2));
+    transition: 1.0s;
+}
+
+.add-circle-outline:hover {
+  transform: translateX(0.15em);
+}
+
+
+/***** LISTS *****/
+
+.item__description {
+  margin-top: 10px;
+  float: left;
+}
+
+.item__description .close-circle-outline {
+ color: rgb(128, 0, 0);
+ font-size: 14px;
+ background: none;
+ border: none;
+ cursor: pointer;
+ display: inline-block;
+ vertical-align: middle;
+ display: none;
+}
+
+.item__description .close-circle-outline:focus 
+{ outline: none; }
+/* .item__description .close-circle-outline:active { transform: translateY(2px); }
+*/
+  
+.item__description:hover .close-circle-outline 
+{ display: inline-flex; }
+
+
+.monday__list,
+.tuesday__list,
+.wednesday__list,
+.thursday__list,
+.friday__list
+ {
+   float:left;
+overflow: auto;
+}
+
+
+/* BOTTOM */
+
+.bottom {
+  position: relative;
+  background-color: #333;
+  display: grid;
+  grid-template-rows: 5fr;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 12px; 
+  font-weight: bold; 
+  letter-spacing: 0.5px; 
+  background-color: #333;
+  border: .1em solid goldenrod;
+  line-height: 1;
+  border-radius: 50px;
+  grid-template-columns: 3fr 3fr;
+}
+
+.randomquotebox {
+  background-color: goldenrod;
+height: 40vh;
+position: relative;
+text-align: center;
+border-radius: 50px;
+margin: 7.5px;
+box-shadow: 2px 2px 5px 5px rgb(51, 51, 51);
+
+}
+
+
+.bottom :active,
+.bottom :hover {
+  transform: scale(1.04);
+  transition-duration: 1s;
+}
+
+
+
+
+.datebox {
+  background-color: goldenrod;
+height: 40vh;
+position: relative;
+text-align: center;
+border-radius: 50px;
+margin: 7.5px;
+box-shadow: 2px 2px 5px 5px rgb(51, 51, 51);
+
+}
+
+.month {
+  font-size: 200%;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quoteDisplay {
+  font-size: 160%;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+
+
