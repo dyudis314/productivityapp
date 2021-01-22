@@ -2,9 +2,8 @@
   margin: 0;
   padding: 2px;
   box-sizing: border-box;
-color: #221d1f; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 300; line-height: 30px;
+  color: #221d1f; font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 300; line-height: 30px;
 }
-
 
 html, 
 body {
@@ -18,7 +17,6 @@ body {
 .red-focus:focus { border: 1px solid #ff5049 !important; }
 
 /* TOP */
-
 
 .top {
   position: relative;
@@ -46,30 +44,16 @@ height: 10%;
 overflow: auto;
 }
 
-.box1 {
-  background-color: goldenrod;
-}
+.box1 { background-color: goldenrod; }
 
 
-.box2 {
-  background-color: goldenrod;
+.box2 { background-color: goldenrod; }
 
-}
+.box3 { background-color: goldenrod; }
 
-.box3 {
-  background-color: goldenrod;
+.box4 { background-color: goldenrod; }
 
-}
-
-.box4 {
-  background-color: goldenrod;
-  
-}
-
-.box5 {
-  background-color: goldenrod;
-
-}
+.box5 { background-color: goldenrod; }
 
 .box1:hover,
 .box1:active, 
@@ -85,8 +69,6 @@ overflow: auto;
   transform: scale(1.04);
 }
 
-
-
 /* MIDDLE */
 
 .add {
@@ -100,8 +82,6 @@ overflow: auto;
   background-color: #333;
   border: .1em solid goldenrod;
 }
-
-
 
 .add__type {
   background-color: rgba(255, 255, 255, 0.582);
@@ -136,7 +116,6 @@ overflow: auto;
   height: 100%;
 }
 
-
 .add-circle-outline {
   color: rgba(255, 255, 255, 0.938);
   font-size: 35px;
@@ -148,13 +127,12 @@ overflow: auto;
 
 .add-circle-outline {
   transform: translateX(calc(0.15em * 3 - 0.08em * 2));
-    transition: 1.0s;
+  transition: 1.0s;
 }
 
 .add-circle-outline:hover {
   transform: translateX(0.15em);
 }
-
 
 /***** LISTS *****/
 
@@ -176,8 +154,6 @@ overflow: auto;
 
 .item__description .close-circle-outline:focus 
 { outline: none; }
-/* .item__description .close-circle-outline:active { transform: translateY(2px); }
-*/
   
 .item__description:hover .close-circle-outline 
 { display: inline-flex; }
@@ -189,8 +165,8 @@ overflow: auto;
 .thursday__list,
 .friday__list
  {
-   float:left;
-overflow: auto;
+  float:left;
+  overflow: auto;
 }
 
 
@@ -213,14 +189,13 @@ overflow: auto;
 }
 
 .randomquotebox {
-  background-color: goldenrod;
+background-color: goldenrod;
 height: 40vh;
 position: relative;
 text-align: center;
 border-radius: 50px;
 margin: 7.5px;
 box-shadow: 2px 2px 5px 5px rgb(51, 51, 51);
-
 }
 
 
@@ -230,9 +205,6 @@ box-shadow: 2px 2px 5px 5px rgb(51, 51, 51);
   transition-duration: 1s;
 }
 
-
-
-
 .datebox {
   background-color: goldenrod;
 height: 40vh;
@@ -241,7 +213,6 @@ text-align: center;
 border-radius: 50px;
 margin: 7.5px;
 box-shadow: 2px 2px 5px 5px rgb(51, 51, 51);
-
 }
 
 .month {
@@ -255,6 +226,3 @@ box-shadow: 2px 2px 5px 5px rgb(51, 51, 51);
   font-weight: lighter;
   font-style: italic;
 }
-
-
-
